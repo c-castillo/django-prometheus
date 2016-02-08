@@ -19,4 +19,4 @@ class DjangoPrometheusConfig(AppConfig):
         are usually short-lived), but can be useful for debugging.
         """
         SetupPrometheusExportsFromConfig()
-        ExportMigrations()
+        #ExportMigrations()
