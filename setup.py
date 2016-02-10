@@ -24,8 +24,11 @@ setup(
     test_suite="tests",
     long_description=LONG_DESCRIPTION,
     install_requires=[
-        "prometheus_client>=0.0.13",
+        "prometheus_client==0.0.9",
         "pip-prometheus>=1.0.0",
+    ],
+     dependency_links=[
+        "http://github.com/brian-brazil/client_python/tarball/multi-process#egg=package-1.0"
     ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
