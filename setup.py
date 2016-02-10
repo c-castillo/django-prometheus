@@ -28,7 +28,7 @@ setup(
         "pip-prometheus>=1.0.0",
     ],
      dependency_links=[
-        "http://github.com/brian-brazil/client_python/tarball/multi-process#egg=prometheus_client-0.0.9"
+        "https://github.com/brian-brazil/client_python/tarball/multi-process#egg=prometheus_client-0.0.9"
     ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
