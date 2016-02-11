@@ -28,7 +28,7 @@ setup(
         "pip-prometheus>=1.0.0",
     ],
      dependency_links=[
-        "https://github.com/prometheus/client_python/tarball/multiproc#egg=prometheus_client-0.0.13"
+        "https://github.com/bendemaree/client_python/tarball/uwsgi-multiproc#egg=prometheus_client-0.0.13"
     ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
